@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HotelAppMainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageViewHotel"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13sp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Beach is but a short walk away"
+                android:textSize="24sp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Nusa Dua Beach adalah salah satu pantai yang terkenal di Bali yang terletak di kawasan Nusa Dua. Pantai ini memiliki pasir putih yang lembut dan air laut yang tenang, sehingga sangat cocok untuk berenang, snorkeling, atau hanya bersantai di tepi pantai. Pantai Nusa Dua juga dikelilingi oleh beberapa hotel mewah dan resor yang menawarkan berbagai fasilitas bagi para wisatawan. Selain itu, di sekitar pantai terdapat juga beberapa restoran dan tempat wisata lainnya yang dapat dikunjungi. Bagi para penggemar olahraga air, pantai Nusa Dua juga menawarkan berbagai kegiatan seperti jet ski, parasailing, dan scuba diving. Terdapat juga beberapa tempat penyewaan peralatan olahraga air di sekitar pantai."></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Nusa Dua Beach adalah salah satu pantai yang terkenal di Bali yang terletak di kawasan Nusa Dua. Pantai ini memiliki pasir putih yang lembut dan air laut yang tenang, sehingga sangat cocok untuk berenang, snorkeling, atau hanya bersantai di tepi pantai. Pantai Nusa Dua juga dikelilingi oleh beberapa hotel mewah dan resor yang menawarkan berbagai fasilitas bagi para wisatawan. Selain itu, di sekitar pantai terdapat juga beberapa restoran dan tempat wisata lainnya yang dapat dikunjungi. Bagi para penggemar olahraga air, pantai Nusa Dua juga menawarkan berbagai kegiatan seperti jet ski, parasailing, dan scuba diving. Terdapat juga beberapa tempat penyewaan peralatan olahraga air di sekitar pantai."></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_background"
+        android:textColor="#ffffff"
+        android:text="Book Now!!!"></Button>
+</LinearLayout>
